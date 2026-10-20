@@ -12,3 +12,6 @@ let number = 4; // INPUT
 
 // write your code below this line
 
+for(let i=1; i<=10; i++){
+    console.log(`${number} x ${i} = ${number*i}`)
+}
