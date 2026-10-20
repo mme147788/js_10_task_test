@@ -7,4 +7,10 @@ let number = 10045; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
+let count = 0
+while(number>0){
+count++
+number = (number-number%10)/10
+}
 
+console.log(count)
