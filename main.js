@@ -11,4 +11,25 @@ let fifth = 5; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
+let max = 0;
 
+if(first>second){
+    max=first
+}
+else{
+    max=second
+}
+
+if(third>max){
+    max=third
+}
+
+if(fourth>max){
+    max=fourth
+}
+
+if(fifth>max){
+    max=fifth
+}
+
+console.log(max)
