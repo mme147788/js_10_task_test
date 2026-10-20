@@ -12,3 +12,12 @@ let rows = 4; // INPUT
 
 // write your code below this line
 
+for (let i = 0; i < rows; i++) {
+    let line = "";
+
+    for (let j = 0; j <= i; j++) {
+        line += '*';
+    }
+
+    console.log(line);
+}
