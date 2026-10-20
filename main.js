@@ -9,3 +9,19 @@ let number = 121; // INPUT
 
 // write your code below this line
 
+let temp=number
+let reverseNum = 0
+
+while(temp>0){
+    reverseNum*=10
+    reverseNum+=temp%10
+    temp=(temp-temp%10)/10
+}
+
+if(number==reverseNum){
+    console.log("Palindrome")
+}
+
+else{
+    console.log("Not a Palindrome")
+}
