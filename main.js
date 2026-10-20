@@ -9,3 +9,11 @@ let number = 1234; // INPUT
 
 // write your code below this line
 
+let reverseNum=0
+for(let i=0; i<4; i++){
+    reverseNum*=10
+    reverseNum+=number%10
+    number=(number-number%10)/10
+}
+
+console.log(reverseNum)
